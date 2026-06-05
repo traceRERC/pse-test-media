@@ -34,6 +34,8 @@ This project was first described in the paper:
 
 Jordan, J. B. (2025). Evaluating Conformance of Video Safety Tools for Photosensitive Epilepsy. In M. Antona & C. Stephanidis (Eds.), *Universal Access in Human-Computer Interaction, HCII 2025*, Lecture Notes in Computer Science, vol. 15780 (pp. 85–98). Springer, Cham. [https://doi.org/10.1007/978-3-031-93848-1_7]("https://doi.org/10.1007/978-3-031-93848-1_7)
 
+ - Free [author version](https://pmc.ncbi.nlm.nih.gov/articles/PMC12249941/) is available on PubMed Central.
+
 ## Dependencies
 The main frame and video generation scripts have 3 dependencies:
 
