@@ -132,7 +132,7 @@ Optional parameters include:
 
 ### Codec choice and color fidelity
 Benchmark patterns are calibrated near pass/fail thresholds, so the video encoding must not alter pixel values.
-Two codecs that OpenCV are lossless end to end:
+Two codecs that OpenCV can use are lossless end to end:
 
  - `"FFV1"` - lossless RGB (OpenCV stores BGRA), with compact files.
  - `"HFYU"` (HuffYUV) - lossless RGB, with larger files.
