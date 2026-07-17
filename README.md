@@ -130,6 +130,22 @@ The following are required components of the JSON:
 Optional parameters include:
  - `"padding"` - \[Integer] The number of frames of padding at the beginning of the video (repeats the first frame)
 
+### Codec choice and color fidelity
+Benchmark patterns are calibrated near pass/fail thresholds, so the video encoding must not alter pixel values.
+Two codecs that OpenCV can use are lossless end to end:
+
+ - `"FFV1"` - lossless RGB (OpenCV stores BGRA), with compact files.
+ - `"HFYU"` (HuffYUV) - lossless RGB, with larger files.
+
+Note that the `"I420"` codec is readable with the legacy PEAT tool, but every pixel is altered
+with a BGR-to-YUV rounding shift plus 4:2:0 chroma subsampling at colored edges.
+
+To generate files readable by legacy PEAT, they need to be uncompressed bottom-up BI_RGB AVIs.
+This can by done with a post-conversion step on FFV1 output:
+
+```
+ffmpeg -i video.avi -vf vflip -c:v rawvideo -pix_fmt bgr24 -flipped_raw_rgb 1 video_oldpeat.avi
+```
 
 ## Background: What is PSE?
 People with photosensitive epilepsy (PSE) can have seizures when viewing particular visual stimuli with flashing, flicker, and bold patterns.
