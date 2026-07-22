@@ -155,7 +155,7 @@ While specific hazards are unique to each individual, there are guidelines and s
  - [ISO 9241-391 \[non-free standard\]](https://www.iso.org/standard/56350.html). Ergonomics of human-system interaction—Part 391: Requirements, analysis and compliance
 test methods for the reduction of photosensitive seizures. 
  - [WCAG 2.2 Success Criterion 2.3.1](https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold) Success Criterion 2.3.1 Three Flashes or Below Threshold. In Web Content Accessibility Guidelines (WCAG) 2.2.
- - [NAB-J guidelines](https://www.j-ba.or.jp/category/broadcasting/jba103852). アニメーション等の映像手法に関するガイドライン \[Guidelines on video methods such as animation\] by Japan Broadcasting Corporation & Japan Commercial Broadcasters Association.
+ - [NAB-J guidelines (archive link)](https://web.archive.org/web/20250701014517/https://www.j-ba.or.jp/category/broadcasting/jba103852). アニメーション等の映像手法に関するガイドライン \[Guidelines on video methods such as animation\] by Japan Broadcasting Corporation & Japan Commercial Broadcasters Association.
  - [Ofcom guidelines](https://www.ofcom.org.uk/siteassets/resources/documents/tv-radio-and-on-demand/broadcast-guidance/programme-guidance/broadcast-code-guidance/section-2-guidance-notes.pdf) Annex 1: Ofcom Guidance Note on Flashing Images and Regular Patterns in Television. In: Ofcom Guidance Notes, Section 2: Harm and offence, pp. 18–21.
 
 These standards are not fully harmonized, but all of them have safety thresholds related to the following criteria. In order to be considered hazardous, a flashing sequence must meet or exceed all three thresholds:
