@@ -9,10 +9,66 @@
         }
     ],
     "expected_result": {
-        "trace24": "fail_luminance",
-        "wcag2_2": "fail_luminance",
-        "ofcom2017": "pass",
-        "itu_r1702_4": "pass",
-        "iso": "pass"
-    }
+        "trace24": "fail",
+        "wcag2_2": "fail",
+        "ofcom2017": "fail",
+        "itu_r1702_4": "fail",
+        "iso": "fail"
+    },
+    "events": {
+        "y1": {
+            "type": "luminance",
+            "firstFrame": 30,
+            "lastFrame": 31
+        }
+    },
+    "failure_details": {
+        "trace24": {
+            "red": {
+                "present": false
+            },
+            "luminance": {
+                "present": true,
+                "event_ids": ["y1"]
+            }
+        },
+        "wcag2_2": {
+            "red": {
+                "present": false
+            },
+            "luminance": {
+                "present": true,
+                "event_ids": ["y1"]
+            }
+        },
+        "ofcom2017": {
+            "red": {
+                "present": false
+            },
+            "luminance": {
+                "present": true,
+                "event_ids": ["y1"]
+            }
+        },
+        "itu_r1702_4": {
+            "red": {
+                "present": false
+            },
+            "luminance": {
+                "present": true,
+                "event_ids": ["y1"]
+            }
+        },
+        "iso": {
+            "red": {
+                "present": false
+            },
+            "luminance": {
+                "present": true,
+                "event_ids": ["y1"]
+            }
+        }
+    },
+
+    "version": "1.0"
 }

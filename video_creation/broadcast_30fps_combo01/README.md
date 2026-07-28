@@ -13,5 +13,5 @@ The flashes change in both luminance and chromaticity.
 Some luminance flash failures have a flash where one red flash does not meet the difference in chromaticity threshold.
 Some red flash failures have a flash where one luminance flash does not meet the luminance difference threshold.
 Some videos will fail both red and luminance guidelines.
-Failing videos only exceed the trace24 guidelines by a small amount.
+Failing videos only exceed the broadcast guidelines by a small amount.
 Passing videos only have one dimension that passes at a time, with other dimensions exceeding thresholds by a small amount.
