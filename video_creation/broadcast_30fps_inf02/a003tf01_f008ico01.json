@@ -1,7 +1,7 @@
 {
     "framerate": 30,
     "colormodel": "sRGBA",
-    "bgcolor": "(64,64,64,255)",
+    "bgcolor": "(1,1,1,255)",
     "pattern": [
         {
             "spatial": "../../area_patterns/25pct_screen/f008_fhd.png",
