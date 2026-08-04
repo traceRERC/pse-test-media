@@ -18,5 +18,70 @@
         "ofcom2017": "fail",
         "itu_r1702_4": "fail",
         "iso": "fail"
+    },
+    "version": "1.0.0",
+    "events": {
+        "y1": {
+            "type": "luminance",
+            "firstFrame": 30,
+            "lastFrame": 30
+        }
+    },
+    "failure_details": {
+        "trace24": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "wcag2_2": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "ofcom2017": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "itu_r1702_4": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "iso": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        }
     }
 }

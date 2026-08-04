@@ -9,10 +9,39 @@
         }
     ],
     "expected_result": {
-        "trace24": "pass",
-        "wcag2_2": "pass",
+        "trace24": "fail",
+        "wcag2_2": "fail",
         "ofcom2017": "pass",
         "itu_r1702_4": "pass",
         "iso": "pass"
-    }
+    },
+    "events": {
+        "r1": {
+            "type": "red",
+            "firstFrame": 30,
+            "lastFrame": 31
+        }
+    },
+    "failure_details": {
+        "trace24": {
+            "red": {
+                "present": true,
+                "event_ids": ["r1"]
+            },
+            "luminance": {
+                "present": false
+            }
+        },
+        "wcag2_2": {
+            "red": {
+                "present": true,
+                "event_ids": ["r1"]
+            },
+            "luminance": {
+                "present": false
+            }
+        }
+    },
+
+    "version": "1.0"
 }

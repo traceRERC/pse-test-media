@@ -10,13 +10,69 @@
         {
             "spatial": "../../area_patterns/25pct_screen/a006_fhd.png",
             "temporal_color": "../../lum_flash_patterns/rel_lum/f026_srgba.csv"
-        }        
+        }
     ],
     "expected_result": {
-        "trace24": "pass",
-        "wcag2_2": "pass",
+        "trace24": "fail",
+        "wcag2_2": "fail",
         "ofcom2017": "pass",
         "itu_r1702_4": "pass",
         "iso": "pass"
+    },
+    "version": "1.0.0",
+    "events": {
+        "y1": {
+            "type": "luminance",
+            "firstFrame": 30,
+            "lastFrame": 30
+        }
+    },
+    "failure_details": {
+        "trace24": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "wcag2_2": {
+            "luminance": {
+                "present": true,
+                "event_ids": [
+                    "y1"
+                ]
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "ofcom2017": {
+            "luminance": {
+                "present": false
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "itu_r1702_4": {
+            "luminance": {
+                "present": false
+            },
+            "red": {
+                "present": false
+            }
+        },
+        "iso": {
+            "luminance": {
+                "present": false
+            },
+            "red": {
+                "present": false
+            }
+        }
     }
 }

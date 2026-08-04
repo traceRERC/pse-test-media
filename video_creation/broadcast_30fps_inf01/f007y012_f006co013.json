@@ -18,5 +18,6 @@
         "ofcom2017": "pass",
         "itu_r1702_4": "pass",
         "iso": "pass"
-    }
+    },
+    "version": "1.0.0"
 }
