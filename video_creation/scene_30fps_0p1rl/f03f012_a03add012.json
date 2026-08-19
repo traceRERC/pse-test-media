@@ -1,0 +1,22 @@
+{
+    "framerate": 30,
+    "colormodel": "sRGBA",
+    "bgcolor": "(124,124,124,255)",
+    "pattern": [
+        {
+            "spatial": "../../area_patterns/80pct_screen/f03_fhd.png",
+            "temporal_color": "../../lum_flash_patterns/scene_0p1_rl/f012_30fps_srgba.csv"
+        },
+        {
+            "spatial": "../../area_patterns/80pct_screen/a03_fhd.png",
+            "temporal_color": "../../lum_flash_patterns/scene_0p1_rl/add012_30fps_srgba.csv"
+        }
+    ],
+    "expected_result": {
+        "trace24": "pass",
+        "wcag2_2": "pass",
+        "ofcom2017": "pass",
+        "itu_r1702_4": "pass",
+        "iso": "pass"
+    }
+}
