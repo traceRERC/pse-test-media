@@ -28,3 +28,7 @@ Representations of temporal-color patterns.
 | *x*r01*n*_ srgba. csv | Evenly spaced quick flashes (reversed polarity) | ![Failure with 4 quick, evenly-spaced flashes (reversed polarity)](./documentation/fr01n_srgba.svg) | ![Low luminance pass with 4 quick, evenly spaced flashes (reversed polarity)](./documentation/lr01n_srgba.svg) | ![Count pass with 4 quick, evenly spaced flashes (reversed polarity)](./documentation/cr01n_srgba.svg) | N/A | 
 | *x*02*n*_ srgba. csv | Square wave (nearly so) | ![Failure with a square wave](./documentation/f02n_srgba.svg) | ![Low luminance pass with a square wave](./documentation/l02n_srgba.svg) | ![Count pass with a square wave](./documentation/c02n_srgba.svg) | ![Luminance pass with a single flash in a square wave sequence not above threshold](./documentation/y02n_srgba.svg) | 
 | *x*03*n*_ srgba. csv | Various multi-step flashes where each step does/doesn't exceed luminance threshold (checks if alternating transitions are being counted properly) | ![Failure with multi-step flashes](./documentation/f03n_srgba.svg) | ![Low luminance pass with multi-step flashes](./documentation/l03n_srgba.svg) | ![Count pass with a multi-step flashes](./documentation/c03n_srgba.svg) | ![Luminance pass with a one multi-step flash not above threshold](./documentation/y03n_srgba.svg) | 
+
+### Synchronicity tests
+
+For testing the synchronicity of multiple flashing areas, patterns that start with `ff...` have a single transition that is one-frame (at 30 fps) out of sync with the corresponding `f...` pattern.
